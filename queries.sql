@@ -108,3 +108,62 @@ LEFT JOIN dept_emp as de
 ON ce.emp_no = de.emp_no
 GROUP BY de.dept_no
 ORDER BY de.dept_no;
+
+-- employee information table
+SELECT * FROM salaries
+ORDER BY  to_date 	desc;
+
+SELECT emp_no, 
+	first_name, 
+last_name,
+	gender
+INTO emp_info
+FROM employees
+WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+
+drop table emp_info;
+
+SELECT e.emp_no,
+	e.first_name,
+e.last_name,
+	e.gender,
+	s.salary,
+	de.to_date
+INTO emp_info
+From employees as e
+INNER JOIN salaries as s
+ON (e.emp_no = s.emp_no)
+INNER JOIN dept_emp as de
+ON (e.emp_no = de.emp_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+     AND (e.hire_date BETWEEN '1985-01-01' AND '1988-12-31')
+	      AND (de.to_date = '9999-01-01');
+
+--Create a query that returns only info relevant to Sales Team:
+	-- employee#, employee first name, last name, dept name
+select ce.emp_no,
+	ce.first_name,
+	ce.last_name,
+	de.dept_no,
+	dpt.dept_name
+from current_emp as ce
+	inner join dept_emp as de
+		on (ce.emp_no = de.emp_no)
+	inner join departments as dpt
+		on (de.dept_no = dpt.dept_no)
+where dept_name = 'Sales';
+
+--Create a query that returns only info relevant to Sales Team:
+	-- employee#, employee first name, last name, dept name
+select ce.emp_no,
+	ce.first_name,
+	ce.last_name,
+	de.dept_no,
+	dpt.dept_name
+from current_emp as ce
+	inner join dept_emp as de
+		on (ce.emp_no = de.emp_no)
+	inner join departments as dpt
+		on (de.dept_no = dpt.dept_no)
+where dept_name in ('Sales', 'Development'); 
