@@ -12,6 +12,32 @@ The second part of this project consisted of creating a Mentorship Eiligibility 
 
 ### Retirement Titles Table:
 
+![Screenshot](Retirement_Titles.png)
 
+* The table shows every employee eligible for retirement, the title or titles they aquired in the company, and how long they've had the title for.
+* Some names are shown more than once because those employees had been promoted throughout their time in Pewlett Hackard.
+
+### Unique Titles Table:
+
+![Screenshot](Unique_Titles.png)
+
+* This table is a modified version of the retirement titles table, it only shows the employees once with their latest title in the company.
+* The Disticnt On fucntion was used to narrow down to one title per employee.
+
+### Retiring Titles
+
+![Screenshot](Retiring_Titles.png)
+
+* This table shows the amount of retirement-age employees in each title.
+* The vast majority of retirement-age employees have a senior title within the company.
+
+### Mentorship Eligibility
+
+![Screenshot](mentorship.png)
+
+* Employees who were born in 1965 are eligible for the mentorship program
+* 1,549 of the Pewlett Hackard Employees qualify
+* The majority of the eligible employees have a senior staff title
+* The minority of the eligible employees have an assistant engineer title
 
 ## Summary
