@@ -35,9 +35,9 @@ The second part of this project consisted of creating a Mentorship Eiligibility 
 
 ![Screenshot](mentorship.png)
 
-* Employees who were born in 1965 are eligible for the mentorship program
-* 1,549 of the Pewlett Hackard Employees qualify
-* The majority of the eligible employees have a senior staff title
-* The minority of the eligible employees have an assistant engineer title
+* Employees who were born in 1965 are eligible for the mentorship program.
+* 1,549 of the Pewlett Hackard Employees qualify.
+* The majority of the eligible employees have a "Senior Staff" title.
+* The minority of the eligible employees have an "Assistant Engineer" title.
 
 ## Summary
