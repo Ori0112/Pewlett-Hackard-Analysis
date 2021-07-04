@@ -41,3 +41,5 @@ The second part of this project consisted of creating a Mentorship Eiligibility 
 * The minority of the eligible employees have an "Assistant Engineer" title.
 
 ## Summary
+
+The greatest concern for Pewlett Hackard based on the results, is that the majority of employees who are eligible for retirement or the mentorship program have senior titles. Therefore, leadership positions are going to be open at a consistent rate in the upcoming years and those who are being mentored already have seniority. Employees who are at rick for being under prepared when the company begins to shift, are those who are younger and have not yet reached a senior position. It would be wise for Pewlett Hackard to include more and reduce the age limit for the mentorship program, as well as, focus on employees who are seeking to be promoted into senior titles. 
